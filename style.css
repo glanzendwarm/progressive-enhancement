@@ -87,11 +87,11 @@ article table tr:not(:last-child){
     border-bottom: 1px solid #333;;
 }
 
-article main {
+article section:nth-of-type(2) {
     border-bottom:1px solid #ccc;
 }
 
-article main img {
+article section img {
     float:right;
     margin:0 0 15px 15px;
     width:300px;
@@ -123,10 +123,10 @@ article q.quote--farmer {
     color:#297A48;
 }
 
-data[value="good"] {
+article data[value="good"] {
     color:#297A48;
 }
 
-data[value="bad"] {
+article data[value="bad"] {
     color:#d41c4d;
 }
