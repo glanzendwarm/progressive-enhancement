@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body {
+    max-width:90%;
+    margin:0 auto;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    color:#333;
+}
+
+header > *:not(:last-child), section > *:not(:last-child) {
+    margin-bottom:0.5rem;
+}
+
+header > h1 {
+    background-color: #e2a731;
+    padding:5px 10px;
+    display: inline-block;
+}
+
+main > *:not(:last-child){
+    margin-bottom:1rem;
+}
+
+header, section, main {
+    margin-bottom:1.5rem;
+}
+
+article {
+    max-width:80%;
+    margin: 40px 10%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+article p {
+    font-family: 'Bree Serif', serif;
+}
+
+article main p:first-of-type {
+    font-weight: bold;
+}
+
+article table {
+    width:500px;
+    text-align: center;
+    border:1px solid #333;
+    border-collapse: collapse;
+}
+
+article table caption {
+    margin-bottom:10px;
+}
+
+article table td {
+    padding:10px;
+}
+
+article table tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+article table td:first-child {
+    border-right: 1px solid #333;
+}
+
+article table th {
+    padding:15px;
+    background: #fd7991;
+    color:#000;
+}
+
+article table th:first-child {
+    border-right:1px solid #333;
+}
+
+article table thead {
+    border-bottom: 1px solid #333;
+}
+
+article table tr:not(:last-child){
+    border-bottom: 1px solid #333;;
+}
+
+article main {
+    border-bottom:1px solid #ccc;
+}
+
+article main img {
+    float:right;
+    margin:0 0 15px 15px;
+    width:300px;
+    height: auto;
+    transform: scaleX(-1);
+}
+
+article a:link {
+    color: #fd7991;
+}
+
+article a:hover {
+    text-decoration: none;
+}
+
+article a:visited {
+    color: #ad0f2e;
+}
+
+article q {
+    font-style: italic;
+}
+
+article q.quote--villagers {
+    color:#A88031;
+}
+
+article q.quote--farmer {
+    color:#297A48;
+}
+
+data[value="good"] {
+    color:#297A48;
+}
+
+data[value="bad"] {
+    color:#d41c4d;
+}
